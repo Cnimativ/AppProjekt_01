@@ -1,0 +1,30 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: rgb(37, 53, 11);
+    margin: 0;
+}
+
+/* .first-row ist eine Klasse. #table1 ist für ID. <nichts> ist für htmltag Beispiel: "body"{}*/
+
+.first-row, .second-row{
+    width: 600px;
+    text-align: center;
+}
+
+.first-row {
+    background-color: rgb(161, 85, 85);
+}
+
+.second-row {
+    background-color: rgb(12, 18, 97);
+}
+
+#table1 {
+    width: 100%;
+    height: 100%;
+    border-collapse:collapse;
+}
