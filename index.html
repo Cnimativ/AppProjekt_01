@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Dies ist ein Test</title>
-        <script src=script.js type=module></script>
-        <script>
-            console.log("test")
-        </script>
-        <link rel=stylesheet href=style.css>
-        <style>
-            div {
-                background-color: crimson;
-            }
-        </style>
-    </head>
-    <body>
-        <!--
+
+<head>
+    <title>Dies ist ein Test</title>
+    <script src=script.js type=module></script>
+    <script>
+        console.log("test")
+    </script>
+    <link rel=stylesheet href=style.css>
+    <style>
+        div {
+            background-color: crimson;
+        }
+    </style>
+</head>
+
+<body>
+    <!--
         <div>Asd 1</div>
         <div>Asd 2</div>
         <span>Asd 3</span>
@@ -33,15 +35,56 @@
             </tr>
         </table>
         -->
-        <table id=table1>
-            <tr>
-                <td class=first-row></td>
-                <td class=second-row></td>
-            </tr>
-            <tr>
-                <td class=first-row>Schade</td>
-                <td class=second-row>Kartoffel</td>
-            </tr>
-        </table>
-    </body>
+    <table id=table0>
+        <tr>
+            <td>
+                <div class=menu>
+                    Minü
+                    <div>
+                        <div class=submenu>
+                            Erster Eintrag
+                            <div>
+                                <div>Unterpunkt 1</div>
+                                <div>Unterpunkt 2</div>
+                            </div>
+                        </div>
+                        <div class=submenu>
+                            Zweiter Eintrag
+                            <div>
+                                <div>Unterpunkt 1</div>
+                                <div>Unterpunkt 2</div>
+                            </div>
+                        </div>
+                        <div class=submenu>
+                            Dritter Eintrag
+                            <div>
+                                <div>Unterpunkt 1</div>
+                                <div>Unterpunkt 2</div>
+                            </div>
+                        </div>
+                        <div class=submenu>
+                            Hier könnte Ihre Werbung stehen
+                            <div>
+                                <div>Unterpunkt 1</div>
+                                <div>Unterpunkt 2</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <table id=table1>
+        <tr id="eins">
+            <td class=first-row><button>Dies ist ein Button in der Tabelle</button></td>
+            <td class=second-row></td>
+        </tr>
+        <tr>
+            <td class=first-row>Schade</td>
+            <td class=second-row>Kartoffel</td>
+        </tr>
+    </table>
+</body>
+
 </html>
